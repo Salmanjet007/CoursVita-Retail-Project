@@ -3,39 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Retail Store</title>
-    <link rel="stylesheet" href="assets/css/styles.css">
+    <title>Retail Store - Home</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <div class="navbar">
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </div>
 
-    <div class="item-section">
-        <h1>Our Products</h1>
-        <div class="product" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)">
-            <img src="assets/images/dal.jpg" alt="Dal" />
-            <p>Dal</p>
-        </div>
-        <div class="product" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)">
-            <img src="assets/images/vegetables.jpg" alt="Vegetables" />
-            <p>Vegetables</p>
-        </div>
-        <div class="product" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)">
-            <img src="assets/images/oil.jpg" alt="Oils" />
-            <p>Oils</p>
-        </div>
-        <div class="product" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)">
-            <img src="assets/images/ghee.jpg" alt="Natural Ghee" />
-            <p>Natural Ghee</p>
-        </div>
-    </div>
+    <header>
+        <h1>Retail Store</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <script src="scripts.js"></script>
+    <section class="items">
+        <h2>Our Products</h2>
+        <div class="product-grid">
+            <div class="product">
+                <img src="assets/images/dals.jpg" alt="Dals">
+                <p>Dals</p>
+            </div>
+            <div class="product">
+                <img src="assets/images/Veg.jpg" alt="Vegetables">
+                <p>Vegetables</p>
+            </div>
+            <div class="product">
+                <img src="assets/images/oil.jpg" alt="Oils">
+                <p>Oils</p>
+            </div>
+            <div class="product">
+                <img src="assets/images/ghee.jpg" alt="Ghee">
+                <p>Natural Ghee</p>
+            </div>
+        </div>
+    </section>
+
+    <script src="assets/js/script.js"></script>
 </body>
 </html>
