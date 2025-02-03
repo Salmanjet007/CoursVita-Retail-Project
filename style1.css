@@ -1,0 +1,40 @@
+.about-section {
+    text-align: center;
+    padding: 20px;
+}
+
+.products-benefits {
+    text-align: center;
+    padding: 20px;
+}
+
+.product-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.product-item {
+    width: 250px;
+    padding: 15px;
+    border: 2px solid #ffcc00;
+    text-align: center;
+    background: #fffbe6;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.product-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.product-item h3 {
+    color: #ff9900;
+}
+
+.product-item:hover {
+    transform: scale(1.1);
+}
